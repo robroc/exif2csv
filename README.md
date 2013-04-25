@@ -17,7 +17,7 @@ Camera model
 
 Photo caption
 
-Photographer's name if in caption. # It must be in format "(Name Name/Agency)". Script will take whatever is between the open parenthesis and and slash.
+Photographer's name if in caption. # It must be in format "(Name Name/Agency)". Script will take whatever is between the open parenthesis and the slash.
 
 Latitude
 
