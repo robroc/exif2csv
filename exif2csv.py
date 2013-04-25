@@ -5,7 +5,7 @@ from PIL.ExifTags import TAGS
 import csv
 
 def convert_to_degress(value):
-    """Helper function to convert the GPS coordinates stored in the EXIF to degress in float format. Forked from https://gist.github.com/erans/983821"""
+    """Helper function to convert the GPS coordinates stored in the EXIF to degress in float format. Forked from github.com/erans/983821"""
     d0 = value[0][0]
     d1 = value[0][1]
     d = float(d0) / float(d1)
