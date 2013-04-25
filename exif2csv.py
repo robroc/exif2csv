@@ -48,3 +48,5 @@ for photo in photos:
     
     table.writerow([photo, datetime, make, model, cutline, photog, lat, lon])
     print 'Extracting data for photo %s' % photo
+    
+file.close()
