@@ -42,9 +42,10 @@ for photo in photos:
         print "No photographer in cutline."
           
     lat = convert_to_degress(exif['GPSInfo'][2])
+    lon = convert_to_degress(exif['GPSInfo'][4])
     
-    if exif['GPSInfo'][3] == 'W':
-        lon = convert_to_degress(exif['GPSInfo'][4]) * -1
+    if exif['GPSInfo'][3] == 'W'
+        lon = lon * -1
     
     table.writerow([photo, datetime, make, model, cutline, photog, lat, lon])
     print 'Extracting data for photo %s' % photo
