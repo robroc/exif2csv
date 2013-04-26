@@ -44,7 +44,7 @@ for photo in photos:
     lat = convert_to_degress(exif['GPSInfo'][2])
     lon = convert_to_degress(exif['GPSInfo'][4])
     
-    if exif['GPSInfo'][3] == 'W'
+    if exif['GPSInfo'][3] == 'W':
         lon = lon * -1
     
     table.writerow([photo, datetime, make, model, cutline, photog, lat, lon])
